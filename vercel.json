@@ -1,12 +1,9 @@
 {
     "build": {
-      "commands": [
-        "git submodule update --init --recursive",
-        "hugo"
-      ],
-      "environment": {
+      "env": {
         "HUGO_VERSION": "0.139.2"
       }
     }
   }
+  
   
